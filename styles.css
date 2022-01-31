@@ -1,0 +1,57 @@
+.menu {
+  /* add correct code to place the menu correctly.*/
+  display: flex;
+  justify-content:space-evenly;
+
+  background-color:plum;
+  font-size: 31px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  color: black;
+}
+
+h3 {
+  font-family:cursive;
+  font-size: 28px;
+  color:black;
+  justify-content: right;
+}
+
+li{
+  color: black;
+  font-size:23px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+}
+
+.bodyimg {
+ background-image: url(images/bg.jpg);
+  display:flex;
+  align-items:center;
+  justify-content: right;
+}
+
+
+body {
+  background-image: url(images/bg1.jpg);
+}
+
+.languages {
+  display: flex;
+  background-image: url(images/color1.png);
+  flex-direction:row;
+}
+
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+.origami {
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+
+  width: 310px;
+  font-family: fantasy;
+}
